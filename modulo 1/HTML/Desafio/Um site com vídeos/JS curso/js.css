@@ -1,0 +1,21 @@
+body{
+    background: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+section{
+    margin: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+

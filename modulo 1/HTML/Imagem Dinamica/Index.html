@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem</title>
+</head>
+<body>
+
+    <h1>Imagem Dinamica</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="img/media.jpg" type="image/jpg">
+        <img src="img/grande.jpg" alt="foto aleatoria">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+
+    <p>Aprendendo a reproduzir audio</p>
+
+    <audio preload="metadata" loop controls>
+
+        <source src="midia/Go NEFFEX.mp3" type="audio/mpeg">
+        <source src="midia/Tell Me That I Can t.mp3" type="audio/mpeg">
+        <source src="midia/Warzone - Anno Domini Beats.mp3" type="audio/mpeg">
+
+        Seu navegador não suporta audio MP3
+
+    </audio>
+    
+</body>
+</html>

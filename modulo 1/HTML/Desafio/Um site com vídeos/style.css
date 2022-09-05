@@ -1,0 +1,44 @@
+body{
+    background: black;
+    color: white;
+}
+
+
+section{
+    margin: 40px;
+    text-align: center;
+}
+
+img{
+    height: 260px;
+    width: 500px;
+    margin: 2px;
+}
+
+
+
+
+
+@media only screen and (max-widht: 888px) {
+
+   section{
+    position: fixed;
+   }
+
+   img{
+    position: fixed;
+   }
+    
+}
+
+
+
+@media only screen and  (max-width: 1108px){
+
+    img{
+    
+        height: 150px;
+        width: 390px;
+    }
+}
+
