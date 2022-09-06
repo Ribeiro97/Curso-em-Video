@@ -2,4 +2,4 @@
  Curso HTML5 e CSS3
 
 
-Aprendendo HTML e CSS pelo curso em video!
+Aprendendo HTML5 e CSS3 pelo curso em video!
